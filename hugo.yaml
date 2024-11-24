@@ -1,0 +1,74 @@
+baseURL: https://teams-notifier.github.io/
+languageCode: en-us
+title: Teams Notifier
+
+module:
+  imports:
+      - path: github.com/imfing/hextra
+
+#enableRobotsTXT: true
+#enableGitInfo: true
+
+markup:
+  # allow raw html
+  goldmark:
+    renderer:
+      unsafe: true
+
+  # enable hextra syntax highlight
+  highlight:
+    noClasses: false
+
+taxonomies:
+  genre: genres
+  tag: tags
+
+params:
+  page:
+    width: full
+  theme:
+    default: system
+    displayToggle: true
+    width: wide
+  navbar:
+    displayTitle: true
+    displayLogo: true
+    logo:
+      path: images/notifier-v6-clean.svg
+      dark: images/notifier-v6-clean.svg
+      link: /
+  footer:
+    enable: true
+    displayCopyright: false
+    displayPoweredBy: false
+    width: normal
+
+  displayUpdatedDate: true
+  dateFormat: "2006-01-02"
+
+  highlight:
+    copy:
+      enable: true
+      # hover | always
+      display: hover
+
+menu:
+  main:
+    - name: Docs
+      weight: 1
+      url: /docs/
+
+    # - name: About
+    #   weight: 2
+    #   url: /about/
+
+    - name: GitHub
+      weight: 3
+      url: "https://github.com/teams-notifier/"
+      params:
+        icon: github
+
+    - name: Search
+      weight: 4
+      params:
+        type: search
