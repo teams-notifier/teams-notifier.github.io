@@ -3,7 +3,7 @@ title: BotFramework Direct Line endpoint
 weight: 30
 ---
 
-**Teams Notifier's bot framework directline component**
+*Teams Notifier's bot framework directline component*
 
 homepage: https://github.com/teams-notifier/bf-directline-endpoint
 

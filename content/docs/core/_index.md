@@ -2,7 +2,7 @@
 linkTitle: "Core components"
 title: Core components
 prev: /docs/getting-started
-next: /docs/core/bot-registration
+next: /docs/core/bf-directline-endpoint
 weight: 60
 ---
 

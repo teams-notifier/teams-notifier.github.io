@@ -1,6 +1,6 @@
 ---
 title: Bot registration
-prev: /docs/core
+next: /docs/core
 #next: /docs/core/bf-directline-endpoint
 weight: 20
 ---

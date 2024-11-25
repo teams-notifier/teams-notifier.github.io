@@ -4,7 +4,7 @@ weight: 40
 next: /docs/addons/
 ---
 
- **Teams Notifier's activity api component. Used to send/update/delete messages (activities) to MS Teams.**
+*Teams Notifier's activity api component. Used to send/update/delete messages (activities) to MS Teams.*
 
 homepage: https://github.com/teams-notifier/activity-api
 
