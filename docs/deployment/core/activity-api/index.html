@@ -57,7 +57,7 @@ Intro A microservice component that manages messages (activities) in Microsoft T
 Send new messages Update existing messages Delete messages Shares it’s database with bf-directline-endpoint.
 Authentication Uses one of two methods:
 Password-based: MICROSOFT_APP_PASSWORD Certificate-based: Both MICROSOFT_APP_CERTIFICATE &#43; MICROSOFT_APP_PRIVATEKEY Configuration Environment variables (can be set via .env file):">
-  <meta itemprop="wordCount" content="272">
+  <meta itemprop="wordCount" content="270">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Activity API">
   <meta name="twitter:description" content="Teams Notifier’s activity api component. Used to send/update/delete messages (activities) to MS Teams.
@@ -501,10 +501,6 @@ Password-based: MICROSOFT_APP_PASSWORD Certificate-based: Both MICROSOFT_APP_CER
         </a>
       </li>
       <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
-        <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#post-a-message">Post a message
-        </a>
-      </li>
-      <li class="hx-my-2 hx-scroll-my-6 hx-scroll-py-6">
         <a class="ltr:hx-pl-4 rtl:hx-pr-4 hx-inline-block hx-text-gray-500 hover:hx-text-gray-900 dark:hx-text-gray-400 dark:hover:hx-text-gray-300 contrast-more:hx-text-gray-900 contrast-more:hx-underline contrast-more:dark:hx-text-gray-50 hx-w-full hx-break-words" href="#send-messages">Send Messages
         </a>
       </li>
@@ -590,8 +586,7 @@ Format: <code>postgresql://{USER}:{PASSWORD}@{HOST}/{DATABASE}</code></li>
 <li><code>/docs</code> - Swagger UI</li>
 <li><code>/redoc</code> - ReDoc UI</li>
 </ul>
-<h3>Post a message<span class="hx-absolute -hx-mt-20" id="post-a-message"></span>
-    <a href="#post-a-message" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><h3>Send Messages<span class="hx-absolute -hx-mt-20" id="send-messages"></span>
+<h3>Send Messages<span class="hx-absolute -hx-mt-20" id="send-messages"></span>
     <a href="#send-messages" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>All POST routes require a <code>conversation_token</code> (obtained from MS Teams bot interaction) and returns a <code>message_id</code>:</p>
 <div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code">
   
@@ -685,8 +680,8 @@ Format: <code>postgresql://{USER}:{PASSWORD}@{HOST}/{DATABASE}</code></li>
 
 <div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="nt">&#34;conversation_token&#34;</span><span class="p">:</span> <span class="s2">&#34;conversation_token (uuid)&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">    <span class="err">[...</span> <span class="err">one</span> <span class="err">of</span> <span class="err">the</span> <span class="err">previous</span> <span class="err">payload...]</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span></span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
+</span></span><span class="line"><span class="cl">    <span class="c1">// [... one of the previous payload...]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="p">}</span></span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0">
   <button
     class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
     title="Copy code"
