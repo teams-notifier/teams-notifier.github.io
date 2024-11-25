@@ -1,5 +1,6 @@
 ---
 title: "Add bot: to a group chat"
+prev: /docs/user-manual/
 weight: 0500
 ---
 

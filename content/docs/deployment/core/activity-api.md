@@ -1,7 +1,7 @@
 ---
 title: Activity API
 weight: 40
-next: /docs/addons/
+next: /docs/deployment/addons/
 ---
 
 *Teams Notifier's activity api component. Used to send/update/delete messages (activities) to MS Teams.*
@@ -47,8 +47,6 @@ Interactive documentation available at:
 - `/docs` - Swagger UI
 - `/redoc` - ReDoc UI
 
-### Post a message
-
 ### Send Messages
 
 All POST routes require a `conversation_token` (obtained from MS Teams bot interaction) and returns a `message_id`:
@@ -91,7 +89,7 @@ All POST routes require a `conversation_token` (obtained from MS Teams bot inter
 ```json
 {
     "conversation_token": "conversation_token (uuid)",
-    [... one of the previous payload...]
+    // [... one of the previous payload...]
 }
 ```
 

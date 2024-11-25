@@ -1,8 +1,8 @@
 ---
 linkTitle: "Add-Ons"
 title: Add-Ons
-prev: /docs/core/activity-api
-next: /docs/addons/gitlab-mr-api
+prev: /docs/deployment/core/activity-api
+next: /docs/deployment/addons/gitlab-mr-api
 weight: 100
 ---
 

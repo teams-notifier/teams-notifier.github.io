@@ -1,6 +1,7 @@
 ---
 title: Bot registration
-next: /docs/core
+prev: /docs/deployment/
+next: /docs/deployment/core
 #next: /docs/core/bf-directline-endpoint
 weight: 20
 ---
@@ -29,7 +30,7 @@ In the Bot config itself:
 ## Credential management
 
 In the Entra App registration:
-* Expend *Manage* and choose *Certificates & secrets*
+* Expand *Manage* and choose *Certificates & secrets*
 * Choose either:
   * to generate a client secret (24 months max validity using the UI, longer using powershell)
   * generate and upload a certificate

@@ -1,5 +1,6 @@
 ---
 title: BotFramework Direct Line endpoint
+prev: /docs/deployment/core/
 weight: 30
 ---
 

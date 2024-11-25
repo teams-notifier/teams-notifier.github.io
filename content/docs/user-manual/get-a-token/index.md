@@ -63,6 +63,8 @@ The bot will send you a private message with the token corresponding to the conv
 
 Use this `conversation_token` with the *activity-api* or an application that uses it
 
-{{< img src="activity-api-swagger.png" style="margin-left: 0rem">}}
+As a reminder, the documentation of the *activity-api* is available in the service itself `http://activity-api/docs`.
+
+You'll find a copy of it here: [activity-api.json](openapi-activity-api.json) or [activity-api.yaml](openapi-activity-api.yaml)
 
 {{% /steps %}}
