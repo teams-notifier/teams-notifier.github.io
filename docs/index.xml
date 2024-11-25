@@ -23,27 +23,21 @@
       <description>
         
         
-        &lt;p&gt;All components are OCI images, sharing nothing except a PostgreSQL database, keeping no states, making them suitable for simple Kubenetes hosting (helm to come).&lt;/p&gt;
-&lt;p&gt;Service is composed of 2 core components:&lt;/p&gt;
+        &lt;p&gt;The documentation is split in 2 main sections:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;bf-directline-endpoint&lt;/strong&gt;: the component in charge of interacting with the users on MS Teams through the bot framework&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;activity-api&lt;/strong&gt;: the component allowing you to publish, edit or delete messages on MS Teams&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://teams-notifier.github.io/docs/deployment/&#34; &gt;deployment&lt;/a&gt;: technical part, for admins and ops&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://teams-notifier.github.io/docs/user-manual/&#34; &gt;user manual&lt;/a&gt;: for regular users&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;First of all you&amp;rsquo;ll need to setup a bot for it.&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>Bot registration</title>
-      <link>https://teams-notifier.github.io/docs/bot-registration/</link>
+      <link>https://teams-notifier.github.io/docs/deployment/bot-registration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://teams-notifier.github.io/docs/bot-registration/</guid>
+      <guid>https://teams-notifier.github.io/docs/deployment/bot-registration/</guid>
       <description>
         
         
@@ -137,10 +131,10 @@
     
     <item>
       <title>BotFramework Direct Line endpoint</title>
-      <link>https://teams-notifier.github.io/docs/core/bf-directline-endpoint/</link>
+      <link>https://teams-notifier.github.io/docs/deployment/core/bf-directline-endpoint/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://teams-notifier.github.io/docs/core/bf-directline-endpoint/</guid>
+      <guid>https://teams-notifier.github.io/docs/deployment/core/bf-directline-endpoint/</guid>
       <description>
         
         
@@ -152,7 +146,7 @@
 Migration and further improvements will be handled by &lt;code&gt;dbmate&lt;/code&gt;&lt;/p&gt;
 &lt;h2&gt;Authentication&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;authentication&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#authentication&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Authentication is either relying on MICROSOFT_APP_PASSWORD or MICROSOFT_APP_CERTIFICATE AND MICROSOFT_APP_PRIVATEKEY.
-Those has been generated from the &lt;a href=&#34;https://teams-notifier.github.io/docs/bot-registration/#credential-management&#34; &gt;Bot registration&amp;rsquo;s credential step&lt;/a&gt;&lt;/p&gt;
+Those has been generated from the &lt;a href=&#34;https://teams-notifier.github.io/docs/deployment/bot-registration/#credential-management&#34; &gt;Bot registration&amp;rsquo;s credential step&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Configuration&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;configuration&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#configuration&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Environment variables or &lt;code&gt;.env&lt;/code&gt;:&lt;/p&gt;
 &lt;ul&gt;
@@ -170,10 +164,10 @@ Those has been generated from the &lt;a href=&#34;https://teams-notifier.github.
     
     <item>
       <title>Activity API</title>
-      <link>https://teams-notifier.github.io/docs/core/activity-api/</link>
+      <link>https://teams-notifier.github.io/docs/deployment/core/activity-api/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://teams-notifier.github.io/docs/core/activity-api/</guid>
+      <guid>https://teams-notifier.github.io/docs/deployment/core/activity-api/</guid>
       <description>
         
         
@@ -336,10 +330,10 @@ Format: &lt;code&gt;postgresql://{USER}:{PASSWORD}@{HOST}/{DATABASE}&lt;/code&gt
     
     <item>
       <title>Add bot: to a group chat</title>
-      <link>https://teams-notifier.github.io/docs/user/add-bot-to-groupchat/</link>
+      <link>https://teams-notifier.github.io/docs/user-manual/add-bot-to-groupchat/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://teams-notifier.github.io/docs/user/add-bot-to-groupchat/</guid>
+      <guid>https://teams-notifier.github.io/docs/user-manual/add-bot-to-groupchat/</guid>
       <description>
         
         
@@ -361,10 +355,10 @@ Format: &lt;code&gt;postgresql://{USER}:{PASSWORD}@{HOST}/{DATABASE}&lt;/code&gt
     
     <item>
       <title>Add bot: to a channel</title>
-      <link>https://teams-notifier.github.io/docs/user/add-bot-to-channel/</link>
+      <link>https://teams-notifier.github.io/docs/user-manual/add-bot-to-channel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://teams-notifier.github.io/docs/user/add-bot-to-channel/</guid>
+      <guid>https://teams-notifier.github.io/docs/user-manual/add-bot-to-channel/</guid>
       <description>
         
         
@@ -411,7 +405,7 @@ Format: &lt;code&gt;postgresql://{USER}:{PASSWORD}@{HOST}/{DATABASE}&lt;/code&gt
       &lt;/div&gt;&lt;/div&gt;
   &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
     &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;
-      if there is no reaction, no private message, the bot might have already been added, just follow &lt;a href=&#34;https://teams-notifier.github.io/docs/user/get-a-token/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Get a token&lt;/a&gt; instructions.
+      if there is no reaction, no private message, the bot might have already been added, just follow &lt;a href=&#34;https://teams-notifier.github.io/docs/user-manual/get-a-token/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Get a token&lt;/a&gt; instructions.
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -422,10 +416,10 @@ Format: &lt;code&gt;postgresql://{USER}:{PASSWORD}@{HOST}/{DATABASE}&lt;/code&gt
     
     <item>
       <title>Add bot: the generic way</title>
-      <link>https://teams-notifier.github.io/docs/user/add-bot-generic/</link>
+      <link>https://teams-notifier.github.io/docs/user-manual/add-bot-generic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://teams-notifier.github.io/docs/user/add-bot-generic/</guid>
+      <guid>https://teams-notifier.github.io/docs/user-manual/add-bot-generic/</guid>
       <description>
         
         
@@ -480,10 +474,10 @@ Format: &lt;code&gt;postgresql://{USER}:{PASSWORD}@{HOST}/{DATABASE}&lt;/code&gt
     
     <item>
       <title>Get a token</title>
-      <link>https://teams-notifier.github.io/docs/user/get-a-token/</link>
+      <link>https://teams-notifier.github.io/docs/user-manual/get-a-token/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://teams-notifier.github.io/docs/user/get-a-token/</guid>
+      <guid>https://teams-notifier.github.io/docs/user-manual/get-a-token/</guid>
       <description>
         
         
@@ -591,10 +585,10 @@ Format: &lt;code&gt;postgresql://{USER}:{PASSWORD}@{HOST}/{DATABASE}&lt;/code&gt
     
     <item>
       <title>gitlab-mr-api</title>
-      <link>https://teams-notifier.github.io/docs/addons/gitlab-mr-api/</link>
+      <link>https://teams-notifier.github.io/docs/deployment/addons/gitlab-mr-api/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://teams-notifier.github.io/docs/addons/gitlab-mr-api/</guid>
+      <guid>https://teams-notifier.github.io/docs/deployment/addons/gitlab-mr-api/</guid>
       <description>
         
         

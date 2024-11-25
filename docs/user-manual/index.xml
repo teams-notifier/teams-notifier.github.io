@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Teams Notifier – User manual</title>
-    <link>https://teams-notifier.github.io/docs/user/</link>
+    <link>https://teams-notifier.github.io/docs/user-manual/</link>
     <description>Recent content in User manual on Teams Notifier</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	  <atom:link href="https://teams-notifier.github.io/docs/user/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://teams-notifier.github.io/docs/user-manual/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,10 +16,10 @@
     
     <item>
       <title>Add bot: to a group chat</title>
-      <link>https://teams-notifier.github.io/docs/user/add-bot-to-groupchat/</link>
+      <link>https://teams-notifier.github.io/docs/user-manual/add-bot-to-groupchat/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://teams-notifier.github.io/docs/user/add-bot-to-groupchat/</guid>
+      <guid>https://teams-notifier.github.io/docs/user-manual/add-bot-to-groupchat/</guid>
       <description>
         
         
@@ -41,10 +41,10 @@
     
     <item>
       <title>Add bot: to a channel</title>
-      <link>https://teams-notifier.github.io/docs/user/add-bot-to-channel/</link>
+      <link>https://teams-notifier.github.io/docs/user-manual/add-bot-to-channel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://teams-notifier.github.io/docs/user/add-bot-to-channel/</guid>
+      <guid>https://teams-notifier.github.io/docs/user-manual/add-bot-to-channel/</guid>
       <description>
         
         
@@ -91,7 +91,7 @@
       &lt;/div&gt;&lt;/div&gt;
   &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
     &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;
-      if there is no reaction, no private message, the bot might have already been added, just follow &lt;a href=&#34;https://teams-notifier.github.io/docs/user/get-a-token/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Get a token&lt;/a&gt; instructions.
+      if there is no reaction, no private message, the bot might have already been added, just follow &lt;a href=&#34;https://teams-notifier.github.io/docs/user-manual/get-a-token/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Get a token&lt;/a&gt; instructions.
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -102,10 +102,10 @@
     
     <item>
       <title>Add bot: the generic way</title>
-      <link>https://teams-notifier.github.io/docs/user/add-bot-generic/</link>
+      <link>https://teams-notifier.github.io/docs/user-manual/add-bot-generic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://teams-notifier.github.io/docs/user/add-bot-generic/</guid>
+      <guid>https://teams-notifier.github.io/docs/user-manual/add-bot-generic/</guid>
       <description>
         
         
@@ -160,10 +160,10 @@
     
     <item>
       <title>Get a token</title>
-      <link>https://teams-notifier.github.io/docs/user/get-a-token/</link>
+      <link>https://teams-notifier.github.io/docs/user-manual/get-a-token/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://teams-notifier.github.io/docs/user/get-a-token/</guid>
+      <guid>https://teams-notifier.github.io/docs/user-manual/get-a-token/</guid>
       <description>
         
         

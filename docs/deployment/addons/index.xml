@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Teams Notifier – Add-Ons</title>
-    <link>https://teams-notifier.github.io/docs/addons/</link>
+    <link>https://teams-notifier.github.io/docs/deployment/addons/</link>
     <description>Recent content in Add-Ons on Teams Notifier</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	  <atom:link href="https://teams-notifier.github.io/docs/addons/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://teams-notifier.github.io/docs/deployment/addons/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,10 +16,10 @@
     
     <item>
       <title>gitlab-mr-api</title>
-      <link>https://teams-notifier.github.io/docs/addons/gitlab-mr-api/</link>
+      <link>https://teams-notifier.github.io/docs/deployment/addons/gitlab-mr-api/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://teams-notifier.github.io/docs/addons/gitlab-mr-api/</guid>
+      <guid>https://teams-notifier.github.io/docs/deployment/addons/gitlab-mr-api/</guid>
       <description>
         
         

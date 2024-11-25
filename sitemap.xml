@@ -4,25 +4,27 @@
   <url>
     <loc>https://teams-notifier.github.io/docs/getting-started/</loc>
   </url><url>
-    <loc>https://teams-notifier.github.io/docs/bot-registration/</loc>
+    <loc>https://teams-notifier.github.io/docs/deployment/bot-registration/</loc>
   </url><url>
-    <loc>https://teams-notifier.github.io/docs/core/bf-directline-endpoint/</loc>
+    <loc>https://teams-notifier.github.io/docs/deployment/core/bf-directline-endpoint/</loc>
   </url><url>
-    <loc>https://teams-notifier.github.io/docs/core/activity-api/</loc>
+    <loc>https://teams-notifier.github.io/docs/deployment/core/activity-api/</loc>
   </url><url>
-    <loc>https://teams-notifier.github.io/docs/core/</loc>
+    <loc>https://teams-notifier.github.io/docs/deployment/core/</loc>
   </url><url>
-    <loc>https://teams-notifier.github.io/docs/addons/</loc>
+    <loc>https://teams-notifier.github.io/docs/deployment/addons/</loc>
   </url><url>
-    <loc>https://teams-notifier.github.io/docs/user/add-bot-to-groupchat/</loc>
+    <loc>https://teams-notifier.github.io/docs/user-manual/add-bot-to-groupchat/</loc>
   </url><url>
-    <loc>https://teams-notifier.github.io/docs/user/add-bot-to-channel/</loc>
+    <loc>https://teams-notifier.github.io/docs/user-manual/add-bot-to-channel/</loc>
   </url><url>
-    <loc>https://teams-notifier.github.io/docs/user/</loc>
+    <loc>https://teams-notifier.github.io/docs/deployment/</loc>
   </url><url>
-    <loc>https://teams-notifier.github.io/docs/user/add-bot-generic/</loc>
+    <loc>https://teams-notifier.github.io/docs/user-manual/</loc>
   </url><url>
-    <loc>https://teams-notifier.github.io/docs/user/get-a-token/</loc>
+    <loc>https://teams-notifier.github.io/docs/user-manual/add-bot-generic/</loc>
+  </url><url>
+    <loc>https://teams-notifier.github.io/docs/user-manual/get-a-token/</loc>
   </url><url>
     <loc>https://teams-notifier.github.io/</loc>
     <lastmod>2024-11-23T18:26:14+01:00</lastmod>
@@ -31,7 +33,7 @@
   </url><url>
     <loc>https://teams-notifier.github.io/genres/</loc>
   </url><url>
-    <loc>https://teams-notifier.github.io/docs/addons/gitlab-mr-api/</loc>
+    <loc>https://teams-notifier.github.io/docs/deployment/addons/gitlab-mr-api/</loc>
   </url><url>
     <loc>https://teams-notifier.github.io/tags/</loc>
   </url>
