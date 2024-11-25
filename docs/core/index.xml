@@ -15,103 +15,6 @@
     
     
     <item>
-      <title>Bot registration</title>
-      <link>https://teams-notifier.github.io/docs/core/bot-registration/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://teams-notifier.github.io/docs/core/bot-registration/</guid>
-      <description>
-        
-        
-        &lt;p&gt;You&amp;rsquo;ll need:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;some elevated privileges&lt;/li&gt;
-&lt;li&gt;a square icon of 192px by 192px&lt;/li&gt;
-&lt;li&gt;an outline icon in 32px by 32px.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Registering a bot will bring you to 4 different MS portals, follow those steps.&lt;/p&gt;
-&lt;h2&gt;Bot creation and registration&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;bot-creation-and-registration&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#bot-creation-and-registration&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;Go to &lt;a href=&#34;https://dev.teams.microsoft.com/bots&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://dev.teams.microsoft.com/bots&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Create a bot
-&lt;ul&gt;
-&lt;li&gt;Give it a name&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;In the Bot config itself:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Save its ID for later (for the Entra app and the bot framework portal)&lt;/li&gt;
-&lt;li&gt;Configure the &lt;strong&gt;Endpoint address&lt;/strong&gt; like &lt;a href=&#34;https://bf-endbpoint-api.example.org/api/messages&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bf-endbpoint-api.example.org/api/messages&lt;/a&gt; (where you deployed this api)&lt;/li&gt;
-&lt;li&gt;Go to the bot framework portal: &lt;a href=&#34;https://dev.botframework.com/bots/settings?id=ID_OF_YOUR_BOT&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://dev.botframework.com/bots/settings?id=ID_OF_YOUR_BOT&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;Update the icon&lt;/li&gt;
-&lt;li&gt;the Messaging endpoint should be set, if not, you can define it here&lt;/li&gt;
-&lt;li&gt;then click on &lt;em&gt;Manage Microsoft App ID and password&lt;/em&gt;, this will send you to Entra ID&amp;rsquo;s App registrations config of the bot&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Credential management&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;credential-management&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#credential-management&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;In the Entra App registration:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Expend &lt;em&gt;Manage&lt;/em&gt; and choose &lt;em&gt;Certificates &amp;amp; secrets&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Choose either:
-&lt;ul&gt;
-&lt;li&gt;to generate a client secret (24 months max validity using the UI, longer using powershell)&lt;/li&gt;
-&lt;li&gt;generate and upload a certificate&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;MS Teams app creation and publication&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;ms-teams-app-creation-and-publication&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#ms-teams-app-creation-and-publication&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;Go to &lt;a href=&#34;https://dev.teams.microsoft.com/apps&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://dev.teams.microsoft.com/apps&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;Give it a name&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;In the newly created app:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Basic information&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;fill the required fields&lt;/li&gt;
-&lt;li&gt;in &lt;strong&gt;Application (client) ID&lt;/strong&gt;, set the bot ID from the first step&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Branding&lt;/strong&gt;: setup the Color icon, the Outline icon and the Accent color (for the provided icons, I suggest #5c61ce as accent color)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;App features&lt;/strong&gt;: select Bot, then&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;choose the bot you created in the previous steps&lt;/li&gt;
-&lt;li&gt;select all the scopes (Personal, Team, Group Chat)&lt;/li&gt;
-&lt;li&gt;you can add a bot command
-&lt;ul&gt;
-&lt;li&gt;command: help&lt;/li&gt;
-&lt;li&gt;description: Show help&lt;/li&gt;
-&lt;li&gt;scope: Personal&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Save&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Once everything is ready, head up to &lt;em&gt;Publish&lt;/em&gt; &amp;gt; &lt;em&gt;Publish to org&lt;/em&gt; and click &lt;em&gt;Publish your app&lt;/em&gt;, if submission fails, double check all mandatory fields are filled in &lt;em&gt;Configure&lt;/em&gt; &amp;gt; &lt;em&gt;Basic information&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Now it has been published, it can take a bit for the app to show up on Teams Admin center.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Go to &lt;a href=&#34;https://admin.teams.microsoft.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://admin.teams.microsoft.com/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Teams apps&lt;/em&gt; &amp;gt; &lt;em&gt;Manage apps&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Search in the list for your app name (let&amp;rsquo;s say Notifier), it should be in &lt;strong&gt;Blocked&lt;/strong&gt; status&lt;/li&gt;
-&lt;li&gt;Click it and at the top click &lt;strong&gt;Publish&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;NOTE: You&amp;rsquo;ll need to revalidate every time you publish an update of the app (icon, description, commands etc&amp;hellip;)&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
       <title>BotFramework Direct Line endpoint</title>
       <link>https://teams-notifier.github.io/docs/core/bf-directline-endpoint/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -120,7 +23,7 @@
       <description>
         
         
-        &lt;p&gt;&lt;strong&gt;Teams Notifier&amp;rsquo;s bot framework directline component&lt;/strong&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;em&gt;Teams Notifier&amp;rsquo;s bot framework directline component&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;homepage: &lt;a href=&#34;https://github.com/teams-notifier/bf-directline-endpoint&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/teams-notifier/bf-directline-endpoint&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Intro&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;intro&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#intro&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This service will be publicly available and receive messages from BotFramework about user interactions. It&amp;rsquo;ll also generates the &lt;code&gt;conversation_token&lt;/code&gt; accordingly and send related messages. It&amp;rsquo;s main focus is user interaction.&lt;/p&gt;
@@ -128,7 +31,7 @@
 Migration and further improvements will be handled by &lt;code&gt;dbmate&lt;/code&gt;&lt;/p&gt;
 &lt;h2&gt;Authentication&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;authentication&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#authentication&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Authentication is either relying on MICROSOFT_APP_PASSWORD or MICROSOFT_APP_CERTIFICATE AND MICROSOFT_APP_PRIVATEKEY.
-Those has been generated from the &lt;a href=&#34;https://teams-notifier.github.io/docs/core/bot-registration/#credential-management&#34; &gt;Bot registration&amp;rsquo;s credential step&lt;/a&gt;&lt;/p&gt;
+Those has been generated from the &lt;a href=&#34;https://teams-notifier.github.io/docs/bot-registration/#credential-management&#34; &gt;Bot registration&amp;rsquo;s credential step&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Configuration&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;configuration&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#configuration&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Environment variables or &lt;code&gt;.env&lt;/code&gt;:&lt;/p&gt;
 &lt;ul&gt;
@@ -153,7 +56,7 @@ Those has been generated from the &lt;a href=&#34;https://teams-notifier.github.
       <description>
         
         
-        &lt;p&gt;&lt;strong&gt;Teams Notifier&amp;rsquo;s activity api component. Used to send/update/delete messages (activities) to MS Teams.&lt;/strong&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;em&gt;Teams Notifier&amp;rsquo;s activity api component. Used to send/update/delete messages (activities) to MS Teams.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;homepage: &lt;a href=&#34;https://github.com/teams-notifier/activity-api&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/teams-notifier/activity-api&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Intro&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;intro&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#intro&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;A microservice component that manages messages (activities) in Microsoft Teams:&lt;/p&gt;
