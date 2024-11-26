@@ -72,3 +72,7 @@ menu:
       weight: 4
       params:
         type: search
+
+services:
+  googleAnalytics:
+    ID: G-2V04YXVJRR
