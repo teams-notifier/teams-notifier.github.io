@@ -6,7 +6,12 @@ next: /docs/deployment/addons/
 
 *Teams Notifier's activity api component. Used to send/update/delete messages (activities) to MS Teams.*
 
-homepage: https://github.com/teams-notifier/activity-api
+|   |   |
+|---|---|
+| **homepage** | https://github.com/teams-notifier/activity-api |
+| **registry** | https://github.com/teams-notifier/activity-api/pkgs/container/activity-api |
+| **image** | `ghcr.io/teams-notifier/activity-api:latest` |
+
 
 ## Intro
 

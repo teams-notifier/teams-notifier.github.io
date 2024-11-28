@@ -1,0 +1,4 @@
+thead th:empty {
+    border: thin solid black !important;
+    display: none;
+}

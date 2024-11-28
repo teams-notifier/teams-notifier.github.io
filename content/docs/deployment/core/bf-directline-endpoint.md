@@ -6,7 +6,12 @@ weight: 30
 
 *Teams Notifier's bot framework directline component*
 
-homepage: https://github.com/teams-notifier/bf-directline-endpoint
+|   |   |
+|---|---|
+| **homepage** | https://github.com/teams-notifier/bf-directline-endpoint |
+| **registry** | https://github.com/teams-notifier/bf-directline-endpoint/pkgs/container/bf-directline-endpoint |
+| **image** | `ghcr.io/teams-notifier/bf-directline-endpoint:latest` |
+
 
 ## Intro
 
