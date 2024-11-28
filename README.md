@@ -1,7 +1,5 @@
-# Build 
+# Dev run
 
 ```bash
-hugo
+hugo server --logLevel debug --disableFastRender -p 1313 -D
 ```
-
-Publish `public` folder :)
