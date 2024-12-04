@@ -25,7 +25,7 @@ taxonomies:
 
 params:
   page:
-    width: full
+    width: wide
   theme:
     default: system
     displayToggle: true
@@ -58,9 +58,9 @@ menu:
       weight: 1
       url: /docs/
 
-    # - name: About
-    #   weight: 2
-    #   url: /about/
+    - name: User manual
+      weight: 2
+      url: /docs/user-manual/
 
     - name: GitHub
       weight: 3

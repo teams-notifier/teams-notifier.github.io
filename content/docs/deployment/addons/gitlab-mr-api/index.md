@@ -15,7 +15,7 @@ next: /docs/user-manual/
 
 ## Intro
 
-This component enables real-time tracking of project merge requests. When a merge request is created, a message is posted and automatically updated as the MR status changes. The message is automatically deleted when the merge request is either closed or merged.
+This component enables real-time tracking of project merge requests. When a merge request is created, a message is posted and automatically updated as the MR status changes. The message is automatically deleted when the merge request is either closed or merged. Deleted merge request's messages won't be removed because Gitlab doesn't call webhook on deletion.
 
 Here's an example of a merge request message:
 {{< img src="merge-request-card-example.png" style="margin-left: 0rem">}}
