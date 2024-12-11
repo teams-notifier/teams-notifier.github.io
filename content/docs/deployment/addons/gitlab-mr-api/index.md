@@ -68,8 +68,12 @@ In case of failure, now or afterward, you can Edit the webhook and you'll see al
 ## Webhook declaration helper
 
 {{% details title="Environment variables" %}}
+
+To be placed in a `.env` file in the script's folder or `export`'ed
+
 ```bash
-# Gitlab token with Admin or Maintainer right
+# Your Gitlab personal access token with Admin or Maintainer right
+# Used to declare the webhook itself
 GITLAB_TOKEN=
 
 # your gitlab url (opt. if gitlab.com)
@@ -78,7 +82,8 @@ GITLAB_TOKEN=
 # coma separated list of conversation tokens
 CONVERSATION_TOKEN=
 
-# Gitlab secret matching one of the VALID_X_GITLAB_TOKEN
+# Gitlab secret matching one of the gitlab-mr-api's VALID_X_GITLAB_TOKEN
+# Mechanism used by Gitlab to validate received payloads
 GITLAB_SECRET=
 
 # Full url of the accessible webhook https://gl-webhook.example.org/api/v1/gitlab-webhook
