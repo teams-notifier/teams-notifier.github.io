@@ -75,9 +75,19 @@ All POST routes require a `conversation_token` (obtained from MS Teams bot inter
 ```json
 {
     "conversation_token": "conversation_token (uuid)",
-    "text": "Your message content",
-    "title": "Message title",
-    "title_color": "default" // Options: dark, light, accent, good, warning, attention
+    "message": {
+        "title": "Message title",
+        "text": "Your message content",
+
+        "style": "default", // Options: default, emphasis, good, attention, warning, accent
+        "bleed": false, // Set the text container to bleed (fill the card width)
+
+        "title_color": "default", // Options: dark, light, accent, good, warning, attention
+        "title_style": "default", // Options: default, emphasis, good, attention, warning, accent
+        "title_bleed": false, // Set the title container to bleed (fill the card width)
+
+        "summary": "string"
+    }
 }
 ```
 
