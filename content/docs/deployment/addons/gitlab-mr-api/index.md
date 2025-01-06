@@ -49,7 +49,11 @@ On your GitLab repository, follow these steps to add a new webhook:
 3. Click **Add new webhook**.
 4. Fill out the form with the following details:
 
-   * **URL**: https://hostname-of-this-api.example.org/api/v1/gitlab-webhook
+   * **URL**: https://hostname-of-this-api.example.org/api/v1/gitlab-webhook \
+      {{< callout type="info" >}}
+      Since v0.12.0, you can specify a filter to publish notifications only if certain users are involved as the opener, reviewers, or assignees. Use query parameters `filter_on_participant_ids` with a comma-separated list of user IDs (integers).
+      {{< /callout >}}
+
    * **Add custom header**:
      * name: `X-Conversation-Token`
      * value: comma separated list of conversation tokens you want the MR messages sent to
@@ -63,7 +67,6 @@ You can then save or test.
 Note that for the test to work you need an existing MR in the project.
 
 In case of failure, now or afterward, you can Edit the webhook and you'll see all the previous calls, error code and messages, including sent payload and a way to resend the request.
-
 
 ## Webhook declaration helper
 
