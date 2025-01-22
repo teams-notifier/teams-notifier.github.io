@@ -2,7 +2,7 @@
 linkTitle: gitlab-mr-api
 title: gitlab-mr-api
 prev: /docs/deployment/addons/
-next: /docs/user-manual/
+next: /docs/deployment/addons/jira-api
 ---
 
 **Teams Notifier's gitlab-mr-api component**

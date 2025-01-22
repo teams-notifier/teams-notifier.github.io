@@ -7,3 +7,4 @@ weight: 100
 ---
 
 * [gitlab-mr-api]({{< ref "gitlab-mr-api" >}}): service to publish and update message on Gitlab MR Activity
+* [jira-api]({{< ref "jira-api" >}}): service to publish messages from Jira Automation
