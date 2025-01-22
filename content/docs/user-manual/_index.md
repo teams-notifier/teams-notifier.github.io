@@ -1,7 +1,7 @@
 ---
 linkTitle: "User manual"
 title: User manual
-prev: /docs/deployment/addons/gitlab-mr-api
+prev: /docs/deployment/addons/jira-api
 next: /docs/user-manual/add-bot-to-groupchat
 weight: 1000
 ---
